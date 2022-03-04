@@ -25,7 +25,7 @@ h1 {
   font-weight: bolder;
   padding-top: 20px;                                        /*********** margin applied for text from top of a box ***********/
   padding-left: 20px;                                       /********** margin applied for text from left side of a box ********/
-  
+
   /**********margins for visible box***********/ 
   margin-top: 10px;
   margin-bottom: 10px;
@@ -52,8 +52,9 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  margin-top: 5%;
-  margin-right: 5%;
+  top: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
   text-align: center;
@@ -78,8 +79,9 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  margin-top: 5%;
-  margin-right: 5%;
+  top: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
   text-align: center;
@@ -105,8 +107,9 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  margin-top: 5%;
-  margin-right: 5%;
+  top: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
   text-align: center;
