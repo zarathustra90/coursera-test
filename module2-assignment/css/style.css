@@ -16,21 +16,26 @@ h1 {
 /*styling for main container p , a box*/
 
 .box {
+  /*clear: right;*/
   background-color:darkgray;
   border: 2px solid black;
-  height: 125px;
+  height: 145px;
+  background: size 100px;%;
   /* text and font adjustment for box content */
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: black;                                           /*********font color*******************/
   font-weight: bolder;
-  padding-top: 20px;                                        /*********** margin applied for text from top of a box ***********/
-  padding-left: 20px;                                       /********** margin applied for text from left side of a box ********/
+  font-size: small;
+  padding-top: 30px;                                        /*********** margin applied for text from top of a box ***********/
+  padding-left: 20px;
+  padding-right: 20px;                                       /********** margin applied for text from left side of a box ********/
 
   /**********margins for visible box***********/ 
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  background-position: center;
 }
 
 
@@ -53,8 +58,8 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  top: 5px;
-  margin-top: 5px;
+  top: 0px;
+  margin-top: 10px;
   margin-right: 10px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
@@ -68,8 +73,9 @@ h1 {
 
 #label2 {
   position:relative;
-  background-color: burlywood;
+  background-color:lightpink;
   float: right;
+  
 
   /****************************size of label container floating box***************************/
   width: 110px;
@@ -80,8 +86,8 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  top: 5px;
-  margin-top: 5px;
+  top: 0px;
+  margin-top: 10px;
   margin-right: 10px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
@@ -96,8 +102,9 @@ h1 {
 
 #label3 {
   position:relative;
-  background-color: cornflowerblue;
+  background-color:lightpink;
   float: right;
+  
 
   /****************************size of label container floating box***************************/
   width: 110px;
@@ -108,8 +115,8 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  top: 5px;
-  margin-top: 5px;
+  top: 0px;
+  margin-top: 10px;
   margin-right: 10px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
@@ -178,7 +185,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
     .col-tablet-1, .col-tablet-2, .col-tablet-3, .col-tablet-4, .col-tablet-5, .col-tablet-6, .col-tablet-7, .col-tablet-8, .col-tablet-9, .col-tablet-10, .col-tablet-11, .col-tablet-12 {
       float: left;
-      border: 1px solid green;  /**************************temporary visual indicator just to visualize box size*****************/
+      /* border: 1px solid green;  /**************************temporary visual indicator just to visualize box size*****************/  */
     }
     .col-tablet-1 {
       width: 8.33%;
@@ -219,13 +226,15 @@ h1 {
   }
 
    /********** Medium devices only **********/
-@media (max-width: 767px) {
+ @media (max-width: 767px) {
   .col-mobile-12 {
     float: left;
     border: 1px solid green;  /**************************temporary visual indicator just to visualize box size*****************/
   }
   .col-mobile-12 {
     width: 100%;
+    padding-left: 7%;
+    padding-right: 5%;
   }
   
 }
