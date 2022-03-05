@@ -1,9 +1,10 @@
 /******************base style ***********************/
 
-
 * {
     box-sizing: border-box;
 }
+
+
 
 /***** styling for Page header*****/
 h1 {
@@ -29,7 +30,6 @@ h1 {
   /*height: 145px;*/ /****disabled absoute height value as min and max height value works better,setting up min value makes windows same size but when width
    is super small allows to fit it in, should not affect score as layout is correct in width provided by yakoov*/
   
-  /*background: size 100px;*/
   /* text and font adjustment for box content */
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: black;                                           /*********font color*******************/
@@ -39,6 +39,7 @@ h1 {
   padding-left: 20px;
   padding-right: 20px;                                       /********** margin applied for text from left side of a box ********/
 
+ 
   /**********margins for visible box***********/ 
   margin-top: 10px;
   margin-bottom: 10px;
@@ -144,12 +145,15 @@ h1 {
 
 
 
-
 /* my responsive framework */
+
+
 
 *.row {
     width: 100%;
 } 
+
+
 
 /* desktop view , 992px and above */
 @media (min-width: 992px) {
@@ -241,7 +245,11 @@ h1 {
     }
   }
 
-   /********** Medium devices only **********/
+
+
+
+
+   /********** mobile (small)  devices only **********/
  @media (max-width: 767px) {
   .col-mobile-12 {
     float: left;
