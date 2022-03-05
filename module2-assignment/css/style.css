@@ -22,7 +22,7 @@ h1 {
   clear: right;
   background-color:darkgray;
   background-position: center;
-  border: 2px solid black;
+  border: 1px solid black;
   min-height: 145px;
   max-height: fit-content;
 
@@ -63,7 +63,7 @@ h1 {
   height: 25px; 
   
   /****************************label's border size and color*********************************/
-  border:  2px solid black;
+  border:  1px solid black;
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
@@ -93,7 +93,7 @@ h1 {
   height: 25px;
 
   /****************************label's border size and color*********************************/
-  border:  2px solid black;
+  border:  1px solid black;
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
@@ -124,7 +124,7 @@ h1 {
   height: 25px;
 
   /****************************label's border size and color*********************************/
-  border:  2px solid black;
+  border:  1px solid black;
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
