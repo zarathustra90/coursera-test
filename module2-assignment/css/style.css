@@ -8,19 +8,20 @@
 /***** styling for Page header*****/
 h1 {
     text-align: center;
-    color:cornflowerblue;
-    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(142, 34, 146);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 
 /*styling for main container p , a box*/
 
 .box {
-  /*clear: right;*/
+  clear: right;
   background-color:darkgray;
   border: 2px solid black;
   height: 145px;
-  background: size 100px;%;
+  background: size 100px;
   /* text and font adjustment for box content */
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: black;                                           /*********font color*******************/
@@ -35,7 +36,7 @@ h1 {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  background-position: center;
+  background-position: center
 }
 
 
@@ -58,9 +59,11 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  top: 0px;
-  margin-top: 10px;
-  margin-right: 10px;
+  top: 10px;
+  right: 10px; 
+  margin-top: 0px;
+  margin-bottom: -15px;
+  margin-right: 0px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
   text-align: center;
@@ -86,9 +89,11 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  top: 0px;
-  margin-top: 10px;
-  margin-right: 10px;
+  top: 10px;
+  right: 10px; 
+  margin-top: 0px;
+  margin-bottom: -15px;
+  margin-right: 0px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
   text-align: center;
@@ -115,9 +120,11 @@ h1 {
 
 
   /******************** offsets and margins to positon label exactly so it alligns with content box, not container box *********************/
-  top: 0px;
-  margin-top: 10px;
-  margin-right: 10px;
+  top: 10px;
+  right: 10px; 
+  margin-top: 0px;
+  margin-bottom: -15px;
+  margin-right: 0px;
 
   /***************************** labbel text adjustmens, like position font color etc.**************************************************************************/
   text-align: center;
@@ -185,7 +192,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
     .col-tablet-1, .col-tablet-2, .col-tablet-3, .col-tablet-4, .col-tablet-5, .col-tablet-6, .col-tablet-7, .col-tablet-8, .col-tablet-9, .col-tablet-10, .col-tablet-11, .col-tablet-12 {
       float: left;
-      /* border: 1px solid green;  /**************************temporary visual indicator just to visualize box size*****************/  */
+      border: 1px solid green;  /**************************temporary visual indicator just to visualize box size*****************/ 
     }
     .col-tablet-1 {
       width: 8.33%;
