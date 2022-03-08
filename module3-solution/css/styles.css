@@ -1,6 +1,6 @@
 body{
     font-size: 16px;
-    color: blueviolet;
+    color: rgb(28, 27, 29);
     background-color: rgb(184, 197, 197);
     font-family: 'Oxygen', sans-serif;
 }
@@ -10,10 +10,22 @@ body{
     background-color: rgb(170, 170, 170);
     border-radius: 0;
     border: 0;
+    height: 20px;
 }
 
-/*styling of Logo text: Food LLC.*/
-#logo-text{
-    font-size: 24px;
-    margin: 0px 0px 0px 0px;
+.navbar-brand{
+    padding-top:5px;
+}
+
+/****************************************styles Logo text: Food LLC.***************************************************/
+.navbar-brand h1{ /* added navbar-default to navbar-brad class to avoid specififty issue */
+    font-size: 36px;
+    color: rgb(15, 15, 15);
+    margin-top:0;
+    margin-bottom:0;
+    font-weight: bold;
+    text-shadow: 3px 3px 1px rgb(107, 102, 102);
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration:none;
 }
