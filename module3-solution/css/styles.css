@@ -1,0 +1,19 @@
+body{
+    font-size: 16px;
+    color: blueviolet;
+    background-color: rgb(184, 197, 197);
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*styling of navbar header*/
+#header-nav {
+    background-color: rgb(170, 170, 170);
+    border-radius: 0;
+    border: 0;
+}
+
+/*styling of Logo text: Food LLC.*/
+#logo-text{
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+}
