@@ -1,25 +1,28 @@
 body{
     font-size: 16px;
     color: rgb(28, 27, 29);
-    background-color: rgb(184, 197, 197);
+    background-color: rgb(31, 32, 32);
     font-family: 'Oxygen', sans-serif;
 }
 
 /*styling of navbar header*/
 #header-nav {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(223, 96, 166);
     border-radius: 0;
     border: 0;
-    height: 20px;
+    height: 70px;
+    box-shadow: 0px 5px 5px rgb(238, 123, 190);
 }
 
 .navbar-brand{
     padding-top:5px;
+    
 }
 
 /****************************************styles Logo text: Food LLC.***************************************************/
 .navbar-brand h1{ /* added navbar-default to navbar-brad class to avoid specififty issue */
-    font-size: 36px;
+    font-family: 'Bungee Shade';
+    font-size: 48px;
     color: rgb(15, 15, 15);
     margin-top:0;
     margin-bottom:0;
@@ -28,4 +31,10 @@ body{
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration:none;
+}
+
+.container p {
+    background-color: blanchedalmond;
+    border: 3px solid rgb(228, 227, 167);
+    
 }
