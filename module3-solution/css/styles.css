@@ -37,14 +37,14 @@ body{
 
 
 /*styling of h2 */
-.container h2 {
+.container-fluid h2 {
     color: rgb(199, 183, 130);
     font-family: Architects Daughter;
     font-size: 32px;
 }
 
 
-.container p {
+.container-fluid p {
     background-color: rgb(230, 220, 207);
     border: 8px groove #a0e5e5;
     font-family: Architects Daughter;
