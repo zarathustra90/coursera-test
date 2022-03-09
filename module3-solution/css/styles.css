@@ -22,7 +22,7 @@ body{
 /****************************************styles Logo text: Food LLC.***************************************************/
 .navbar-brand h1{ /* added navbar-default to navbar-brad class to avoid specififty issue */
     font-family: 'Bungee Shade';
-    font-size: 48px;
+    font-size: 200%;
     color: rgb(15, 15, 15);
     margin-top:0;
     margin-bottom:0;
@@ -33,8 +33,21 @@ body{
     text-decoration:none;
 }
 
+
+
+/*styling of h2 */
+.container h2 {
+    color: rgb(199, 183, 130);
+    font-family: Architects Daughter;
+    font-size: 32px;
+}
+
+
 .container p {
-    background-color: blanchedalmond;
-    border: 3px solid rgb(228, 227, 167);
+    background-color: rgb(230, 220, 207);
+    border: 3px solid rgb(238, 123, 190);
+    font-family: Architects Daughter;
+    font-weight: 570;
+    background-blend-mode:hue
     
 }
