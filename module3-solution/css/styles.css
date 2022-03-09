@@ -1,7 +1,7 @@
 body{
     font-size: 16px;
     color: rgb(28, 27, 29);
-    background-color: rgb(31, 32, 32);
+    background-color: #1f2020;
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -10,7 +10,6 @@ body{
     background-color: rgb(223, 96, 166);
     border-radius: 0;
     border: 0;
-    height: 70px;
     box-shadow: 0px 5px 5px rgb(238, 123, 190);
 }
 
@@ -27,8 +26,10 @@ body{
     margin-top:0;
     margin-bottom:0;
     font-weight: bold;
-    text-shadow: 3px 3px 1px rgb(107, 102, 102);
+    text-shadow: 3px 3px 1px rgb(107, 102, 102); 
 }
+
+/******************************************removing hyperlink underline from brand logo Food LLC.**********************/
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration:none;
 }
@@ -45,9 +46,26 @@ body{
 
 .container p {
     background-color: rgb(230, 220, 207);
-    border: 3px solid rgb(238, 123, 190);
+    border: 8px groove #a0e5e5;
     font-family: Architects Daughter;
-    font-weight: 570;
-    background-blend-mode:hue
+    padding: 2% 5% 7% 5%;
     
+}
+
+#nav-list a {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bungee Shade';
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    background-color: rgb(238, 123, 190);
+}
+
+/***********************************************change clor of button borders*********************************************/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #000000;
+   
 }
