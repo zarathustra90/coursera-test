@@ -26,7 +26,7 @@ body{
     margin-top:0;
     margin-bottom:0;
     font-weight: bold;
-    text-shadow: 3px 3px 1px rgb(107, 102, 102); 
+    text-shadow: 2px 2px 1px rgb(107, 102, 102); 
 }
 
 /******************************************removing hyperlink underline from brand logo Food LLC.**********************/
@@ -46,7 +46,7 @@ body{
 
 .container-fluid p {
     background-color: rgb(230, 220, 207);
-    border: 8px groove #a0e5e5;
+    border: 12px groove #626361;
     font-family: Architects Daughter;
     padding: 2% 5% 7% 5%;
     
