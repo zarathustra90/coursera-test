@@ -21,7 +21,6 @@
   // byeSpeaker object instead of being a standalone function.
   // See Lecture 52, part 2
 
-  //---------new function
   byeSpeaker.speak = function (name) {
      console.log(speakWord + " " + name);
   }
